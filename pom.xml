@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>center.jhub.common</groupId>
+    <artifactId>JHubCommon</artifactId>
+    <version>0.0.1</version>
+
+    <name>JHub Common library</name>
+
+    <description>
+        This is a library with all the common helpers for all the other projects from JHub.
+    </description>
+    <url>http://jhub.center</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Jhost</name>
+            <email>jhost94@gmail.com</email>
+            <organization>JHub</organization>
+            <organizationUrl>http://jhub.center</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:hbelmiro/demo-library.git</connection>
+        <developerConnection>scm:git:ssh://github.com:hbelmiro/demo-library.git</developerConnection>
+        <url>https://github.com/hbelmiro/demo-library/tree/master</url>
+    </scm>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
